@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Volume Of Utensil</title>
+        <script src="Assingment5.js"></script>
+        <link rel="stylesheet" href="Assingment5.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <label class="sp" for="Size">Select Size : </label>
+            <select name = "size" id = "size">
+                <option value="Cylinder">Cylinder</option>
+                <option value="Cone">Cone</option>
+                <option value="Sphere">Sphere</option>
+            </select>
+            <br>
+            <label for="radius">Enter Radius</label>
+            <input type="text" name="radius" id="radius" placeholder="Enter Radius">
+            <br>
+            <label for="height">Enter Height</label>
+            <input type="text" name="height" id="height" placeholder="Enter Height">
+            <br>
+            <button onclick="cvolume()">Find Volume</button>
+            <br>
+            <br>
+            <h1><p id="msg"></p></h1>
+        </div>
+    </body>
+</html>

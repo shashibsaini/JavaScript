@@ -1,0 +1,29 @@
+/* 
+.wrapper
+{
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: aquamarine;
+    border-width:thick;
+    border: solid;
+    width: 400px;
+    height: 200px;
+}
+
+label.sp
+{
+
+} */
+
+div {
+    background-color: lightgrey;
+    width: 400px;
+    border: 15px solid rgb(8, 155, 246);
+    padding: 50px;
+    margin: 20px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
